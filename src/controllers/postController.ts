@@ -7,7 +7,7 @@ import { User, Post } from "./../types"
 export const createPostByUser = async (req: Request, res: Response) => {
 
     const { title, content, userId } = req.body;
-    // TODO: När vi har authentiserin gpå plats (JWT) ska vi hämta userId därifrån istället
+    // TODO: När vi har authentisering på plats (JWT) ska vi hämta userId därifrån istället
 
 
     try {
